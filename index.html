@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template-3</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Start header -->
+    <header>
+        <a href="#" class="logo">
+            <i class="fas fa-home"></i>
+            Logo
+        </a>
+        <nav>
+            <label for="bar"><i class="fas fa-bars toggle-menu"></i></label>
+            <input type="checkbox" name="check" id="bar">
+            <ul class="items">
+                <li><a href="#">Your Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Sign Out</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-globe-americas"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+                <!-- <a href="#" title="notifications"><i class="fas fa-bell"></i>
+                <span class="notifications">3</span> -->
+                <div class="dropdown" title="notifications">
+                    <button>
+                        <i class="fas fa-bell"></i>
+                        <span class="notifications">3</span>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#" class="item">One new friend request</a>
+                        <a href="#" class="item">Eslam posted on your wall</a>
+                        <a href="#" class="item">Ahmed likes your post</a>
+                    </div>
+                </div>
+                
+                </a>
+            </div>
+            <div class="my-account" title="My-Account">
+                <img src="images/my.jpg" alt="">
+            </div>
+        </nav>
+        
+    </header>
+    <!-- End header -->
+    <div class="account-content">
+        <div class="container">
+            <div class="col-one">
+                <div class="my-profile">
+                    <h2>My Profile</h2>
+                    <img src="images/my.jpg" alt="my" style="width: 106px; height: 106px;">
+                    <ul class="info">
+                        <li>
+                            <i class="fas fa-pencil-alt"></i>
+                            <span>Front-End Dev</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-home"></i>
+                            <span>Egypt-Fayoum</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-birthday-cake"></i>
+                            <span>October 8, 1998</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Start My-Links -->
+                <ul class="my-links">
+                    <li><a href="#">
+                        <i class="fas fa-circle-notch"></i>
+                        My Groups</a>
+                        <!-- <p>Some text...</p> -->
+                    </li>
+                    <li><a href="#">
+                        <i class="fas fa-calendar-check"></i>
+                        My Events</a>
+                        <!-- <p>Some other text...</p> -->
+                    </li>
+                    <li><a href="#">
+                        <i class="fas fa-users"></i>
+                        My photos</a></li>
+                
+                </ul>
+                <!-- End My-Links -->
+                <!-- Start interests -->
+                <div class="interests">
+                    <p>interests</p>
+                    <div class="interests-content">
+                        <span>News</span>
+                        <span>W3Schools</span>
+                        <span>Labels</span>
+                        <span>Games</span>
+                        <span>Friends</span>
+                        <span>Games</span>
+                        <span>Friends</span>
+                        <span>Food</span>
+                        <span>Design</span>
+                        <span>Art</span>
+                        <span>Photos</span>
+                    </div>
+                </div>
+                <!-- End interests -->
+                <!-- Start message -->
+                <div class="message-col1">
+                    <p>Hey!</p>
+                    <span><i class="fas fa-times"></i></span>
+                    <p>People are looking at your profile. Find out who.</p>
+                </div>
+                <!-- End message -->
+            </div>
+            <div class="col-two">
+                <!-- W-post -->
+                <div class="w-post">
+                    <p>Social Media template by w3.css</p>
+                    <p contenteditable="true">Status: Feeling Blue</p>
+                    <button type="button" class="btn">
+                        <i class="fas fa-pen"></i>
+                        post
+                    </button>
+                </div>
+                <!-- End-W-post -->
+                <!-- Start p-posts -->
+                <div class="p-posts">
+                    <div class="post">
+                        <div class="acount-info">
+                            <img src="images/eslam.jpg" alt="img" style="width: 60px; height: 60px;" >
+                        <h4>Eslam Omar</h4>
+                        <span>1 min</span>
+                        </div>
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="image"><img src="images/lights.jpg" alt="" style="width: 100%;"></div>
+                            <div class="image"><img src="images/nature.jpg" alt="" " style="width: 100%;"></div>
+                        </div>
+                        <button type="button" class="btn">
+                            <i class="fas fa-thumbs-up"></i>
+                            Like
+                        </button>
+                        <button type="button" class="btn">
+                            <i class="fas fa-comment"></i>
+                            Comment
+                        </button>
+                        
+                    </div>
+                    <div class="post">
+                        <div class="acount-info">
+                            <img src="images/karam.jpg" alt="img" style="width: 60px; height: 60px;" >
+                        <h4>Mohammed Karam</h4>
+                        <span>45 min</span>
+                        </div>
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <button type="button" class="btn">
+                            <i class="fas fa-thumbs-up"></i>
+                            Like
+                        </button>
+                        <button type="button" class="btn">
+                            <i class="fas fa-comment"></i>
+                            Comment
+                        </button>
+                    </div>
+                    <div class="post">
+                        <div class="acount-info">
+                            <img src="images/Eid.jpg" alt="img" style="width: 60px; height: 60px;" >
+                        <h4>Mohemmed Eid</h4>
+                        <span>1 hour</span>
+                        </div>
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="image">
+                                <video src="images/new.mp4" style="width: 100%;" autoplay muted loop></video>
+                                </div>
+                        </div>
+                        <button type="button" class="btn">
+                            <i class="fas fa-thumbs-up"></i>
+                            Like
+                        </button>
+                        <button type="button" class="btn">
+                            <i class="fas fa-comment"></i>
+                            Comment
+                        </button>
+                    </div>
+                </div>
+                <!-- End p-posts -->
+            </div>
+            <div class="col-three">
+                <div class="events box">
+                    <p>Upcoming Events:</p>
+                    <div class="image"><img src="images/forest.jpg" alt="" style="width: 100%;"></div>
+                    <h3>Holiday</h3>
+                    <span>Friday 15:00</span>
+                    <buttun class="btn">Info</buttun>
+                </div>
+                <div class="request box">
+                    <p>Friend Request</p>
+                    <div class="image"><img src="images/medhat.jpg" alt="" style="width: 100%;"></div>
+                    <h3>Medhat Ramadan</h3>
+                    <buttun class="btn btn-1" title="Accept"><i class="fas fa-check"></i></buttun>
+                    <buttun class="btn btn-2" title="Refuse"><i class="fas fa-user-times"></i></buttun>
+                </div>
+                <div class="blabla">HFMK</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">Footer</div>
+        <p>Powered by <a href="#">Hossam Fathy</a></p>
+    </footer>
+
+
+</body>
+</html>
