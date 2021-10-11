@@ -452,7 +452,7 @@ header nav .items li a:hover {
 .p-posts .post .acount-info img {
     border-radius: 50%;
     vertical-align: middle;
-    margin-right: 16px;
+    margin-right: 4px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -462,7 +462,7 @@ header nav .items li a:hover {
     display: inline-block;
     margin: 10px 0;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
 }
 .p-posts .post span {
     position: absolute;
@@ -485,6 +485,12 @@ header nav .items li a:hover {
         width: 49%;
         padding: 0 8px;
         display: inline-block;
+    }
+    .p-posts .post h4 {
+        font-size: 20px !important;
+    }
+    .p-posts .post .acount-info img {
+        margin-right: 16px;
     }
 }
 .p-posts .post .post-content {
